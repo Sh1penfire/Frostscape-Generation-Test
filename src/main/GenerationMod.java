@@ -48,7 +48,7 @@ public class GenerationMod extends Mod{
     @Override
     public void loadContent(){
         generator = new CellularGenerator();
-        settings = new CellularGenerator.CellularSettings(0,0,250,250,16,0.75f,1, 2, Blocks.air,Blocks.stoneWall);
+        settings = new CellularGenerator.CellularSettings(0,0,250,250,16,0.75f,5, 1, Blocks.air,Blocks.stoneWall);
     }
 
     public static void generate(){
