@@ -1,8 +1,8 @@
 #the mod name as displayed in-game
-displayName: "Java Mod Template"
+displayName: "Frostscape Generation Test"
 
 #the internal name of your mod
-name: "example-java-mod"
+name: "frostsscape-generation-test"
 
 #your name
 author: "You"
@@ -11,7 +11,7 @@ author: "You"
 main: "main.GenerationMod"
 
 #the mod description as seen in the mod dialog
-description: "A Mindustry Java mod template."
+description: "A [[]red] WIP [[]] generation mod for Mindustry mapping."
 
 #the mod version
 version: 1.0
