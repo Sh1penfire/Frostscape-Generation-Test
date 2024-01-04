@@ -8,11 +8,13 @@ import arc.struct.Seq;
 import arc.util.Log;
 import main.generation.GenerationSettings;
 import main.generation.MapGenerator;
-import main.generation.generators.CellularGenerator.*;
 import mindustry.Vars;
+import mindustry.entities.bullet.BulletType;
 import mindustry.gen.Bullet;
 import mindustry.gen.UnitEntity;
 import mindustry.world.Block;
+
+import main.generation.generators.CellularGenerator.*;
 
 public class CellularGenerator extends MapGenerator<CellularSettings> {
 

@@ -1,4 +1,4 @@
 package main.generation;
 
-public class GenerationSettings {
+public abstract class GenerationSettings {
 }

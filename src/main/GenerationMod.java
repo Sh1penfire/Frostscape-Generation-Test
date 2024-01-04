@@ -48,13 +48,11 @@ public class GenerationMod extends Mod{
     @Override
     public void loadContent(){
         generator = new CellularGenerator();
-        settings = new CellularGenerator.CellularSettings(0,0,250,250,16,0.75f,5, 1, Blocks.air,Blocks.stoneWall);
+        settings = new CellularGenerator.CellularSettings(0,0,250,250,16,0.75f,5, 2, Blocks.air,Blocks.stoneWall);
     }
 
     public static void generate(){
-        Time.run(10, () -> {
-            generator.start(settings);
-        });
+        Time.run(1,() -> generator.start(settings));
         /*
         Copy this into generate after calling
         [{class:clear,seed:778591109,target:stone-wall,replace:ferric-stone},{class:blend,seed:902394408,radius:1.98,block:stone,floor:stone},{class:blend,seed:122481267,radius:1.98,block:stone,floor:stone},{class:clear,seed:304650618},{class:clear,seed:371754260,target:ferric-stone,replace:stone},{class:median,seed:995588116,radius:4.05,percentile:0.375},{class:distort,seed:962299413,scl:13.93,mag:14.4275},{class:terrain,seed:390699992,scl:39.92,octaves:3.015,circleScl:0.945}]
